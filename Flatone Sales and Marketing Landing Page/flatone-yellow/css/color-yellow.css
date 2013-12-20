@@ -1,0 +1,40 @@
+h2 span, h3 span{
+    border-bottom: 4px solid #FFD600;
+}
+
+.slogan span{
+	color:#FFD600;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active{
+	background:#FFD600!important;
+}
+
+.nav > li > a:hover {
+	color: #353B49;
+}
+
+.nav > li.current a{
+	color: #353B49;
+}
+
+blockquote{
+	border-left: 5px solid #FFD600;
+}
+
+.rht blockquote{
+	border-right: 5px solid #FFD600;
+}
+
+.flat .plan.featured li.plan-name {
+	background: #353B49;
+}
+
+.social .fa:hover{
+	color:#353B49;
+	border:2px solid #353B49;
+}
+
+.fa-question-circle{
+	color:#FFD600;
+}

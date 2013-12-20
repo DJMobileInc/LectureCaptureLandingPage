@@ -1,0 +1,36 @@
+h2 span, h3 span{
+    border-bottom: 4px solid #EB6D4C;
+}
+
+.slogan span{
+	color:#EB6D4C;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active{
+	background:#EB6D4C!important;
+}
+
+.nav > li > a:hover {
+	color: #EB6D4C;
+}
+
+.nav > li.current a{
+	color: #EB6D4C;
+}
+
+blockquote{
+	border-left: 5px solid #EB6D4C;
+}
+
+.rht blockquote{
+	border-right: 5px solid #EB6D4C;
+}
+
+.flat .plan.featured li.plan-name {
+	background: #EB6D4C;
+}
+
+.social .fa:hover{
+	color:#EB6D4C;
+	border:2px solid #EB6D4C;
+}

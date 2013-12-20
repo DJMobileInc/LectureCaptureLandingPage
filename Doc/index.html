@@ -1,0 +1,222 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Flatone Sales and Marketing Landing Page</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;Flatone Sales and Marketing Landing Page&rdquo; Documentation by &ldquo;TheWebLab&rdquo; v1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;Flatone Sales and Marketing Landing Page&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 28/11/2013<br>
+					By: Enayet Husain Rajib<br>
+					Email: <a href="mailto:eh.rajib@gmail.com">eh.rajib@gmail.com</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/theweblab">here</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#features">Features</a></li>
+			<li><a href="#htmlStructure">HTML Structure</a></li>
+			<li><a href="#cssFiles">CSS Files and Structure</a></li>
+			<li><a href="#javascript">JavaScript</a></li>
+			<li><a href="#mailchimp">Mailchimp Subscription</a></li>
+			<li><a href="#contact">Contact Form</a></li>
+			<li><a href="#credits">Sources and Credits</a></li>
+			
+
+			
+		</ol>
+		
+		<hr>
+		<h3 id="features"><strong>A) Features</strong> - <a href="#toc">top</a></h3>
+		<ul>
+			<li>+ Flat Sales & Marketing Landing Page</li>  
+			<li>+ Bootstrap 3.0 responsive layout</li>  
+			<li>+ Single Page Template</li>  
+			<li>+ On scroll effect by uikit</li>  
+			<li>+ CSS3 Annotation Effect</li>  
+			<li>+ AJAX contact form</li>  
+			<li>+ Mailchimp email subscription</li>  
+			<li>+ Font-awesome & Goole font</li>
+		</ul>
+		<hr>
+		
+		<h3 id="htmlStructure"><strong>B) HTML Structure</strong> - <a href="#toc">top</a></h3>
+		<p>This theme is a responsive layout based on twitter bootstrap 3.0. A single page template. The sections are:</p>
+		
+		<img src="assets/images/htmlstructure.jpg" alt="HTML Structure" />
+		
+		<p>You need to add/edit content within the above divs.</p>
+
+<pre>	a {
+		color: #someColor;
+	} 
+</pre>
+
+		<p>If you find that your new/custom style is not overriding, it is most likely because of a specificity problem. Scroll down in your CSS file and make sure that there isn't a similar style that has more weight.</p>
+
+		<p>I.E.</p>
+
+<pre>	.third a {
+		color: #someColor;
+	}
+</pre>
+
+		<p>So, to ensure that your new styles are applied, make sure that they carry enough "weight" and that there isn't a style lower in the CSS file that is being applied after yours.</p> 
+
+		<hr>
+
+		<h3 id="cssFiles"><strong>C) CSS Files and Structure</strong> - <a href="#toc">top</a></h3>
+
+		<p>I'm using mainly one CSS files in this theme.</p> 
+
+		<p>The file contains all of the specific stylings for the page. The file is separated into sections using:</p>  
+
+<pre>	
+/*
+
+Flatone Sales and Marketing Landing Page
+
+- Common 
+- Colors
+- Header Section
+- Menu
+- Services
+- Feature section
+- Clients
+- Team
+- Price Table
+- Subscription and Contact form
+- FAQ
+- Footer
+	- footer social icon
+	- footer copyright text
+- Scroll to top
+- Custom Media Query
+
+*/
+</pre>
+		
+		<p>If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</p> 
+
+		<p>There are some extra css files for added asstes like bootstrap, fontawesome etc.</p> 
+
+		
+		<hr>
+		
+		<h3 id="javascript"><strong>D) JavaScript</strong> - <a href="#toc">top</a></h3>
+		
+		<p>This theme imports three Javascript files.</p>
+		
+		<ol>
+			<li>jQuery</li>
+			<li>My custom scripts</li>
+			<li>Plugin</li>
+		</ol>
+		  
+		<ol>
+			<li>jQuery is a Javascript library that greatly reduces the amount of code that you must write.</li>
+			<li>Most of the animation in this site is carried out from the customs scripts and css3. The custom javascript is inlcuded at the bottom of the html page.
+			</li>
+			<li>In addition to the custom scripts, I implement a few "tried and true" plugins to create the effects. This plugin is packed, so you won't need to manually edit anything in the file. The only necessary thing to know is how to call the method.
+				<p>
+				<ol>
+					<li>The slider <b>lib/jquery.bxslider/jquery.bxslider.min.js</b></li>
+					<li>jQuery-One-Page-Nav <b>lib/jQuery-One-Page-Nav/jquery.scrollTo.js</b> and <b>lib/jQuery-One-Page-Nav/jquery.nav.js</b></li>
+					<li>The parallax effect with <b>lib/jquery-parallax/scripts/jquery.parallax-1.1.3.js</b></li>
+					<li>The uikit <b>lib/uikit/js/uikit.min.js</b></li>
+					<li>Scroll to top <b>lib/scrollToTop/jquery.scrollToTop.min.js</b></li>
+				</ol>
+				</p>
+			</li>
+		</ol>
+		
+		<hr> 
+		
+		
+		<h3 id="mailchimp"><strong>E) Mailchimp Subscription</strong> - <a href="#toc">top</a></h3>	
+		
+		<p>Edit the "lib/mcapi-simple-subscribe-jquery/inc/store-address.php" file:</p>
+
+		<pre>
+		Line 24: replace "your_apikey" with an API Key retrieved from here:
+			http://admin.mailchimp.com/account/api/
+		</pre>
+		
+		<pre>
+		Line 27: replace "my_list_unique_id" with the List Unique Id obtained by going to:
+			http://admin.mailchimp.com/lists/
+			
+		Click the "settings" link for the list - the Unique Id is at the bottom of that page.		
+		</pre>
+		
+		<hr>
+		
+		<h3 id="contact"><strong>F) Contact Form</strong> - <a href="#toc">top</a></h3>
+		
+		<p>Edit the "lib/Simple-Form/mail.php" file:</p>
+
+		<p>This file is self explanatory.</p>
+
+		<p>Just put the email address, where you want to receive the submitted mails.</p>
+		
+		<pre>
+		$simpleFormMailRecipient = "to@example.com";		
+
+		</pre>	
+		
+		
+		<hr>
+		<h3 id="credits"><strong>G) Sources and Credits</strong> - <a href="#toc">top</a></h3>
+		
+		<p>I've used the following images, icons or other files as listed.
+		
+		<ul>
+			<li><a href="http://getbootstrap.com/">Bootstrap</a></li>
+			<li><a href="http://fontawesome.io/">Font Awesome</a></li>
+			<li><a href="https://github.com/davist11/jQuery-One-Page-Nav">jQuery-One-Page-Nav</a></li>
+			<li><a href="https://github.com/IanLunn/jQuery-Parallax">Parallax effect</a></li>
+			<li><a href="https://github.com/wandoledzep/bxslider-4">bxSlider</a></li>
+			<li><a href="http://www.getuikit.com/">UIKIT</a></li>
+			
+		</ul>
+		
+		<hr>
+		
+		<p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p> 
+		
+		<p class="append-bottom alt large"><strong>Enayet Husain Rajib</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>
